@@ -106,7 +106,7 @@ print("Area: \(area)")
 
 var myLevel = 1
 func updateLevel(level: inout Int) {
-    level += level
+    level += 1
     print("Level up: \(level)")
 }
 updateLevel(level: &myLevel)
